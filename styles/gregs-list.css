@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background: #fff;
+}
+
+header {
+  background-color: lightgrey;
+  position: fixed;
+  height: 25px;
+  display: block;
+  padding: 10px;
+  right: 0;
+  left: 0;
+  top: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+
+}
+h1{
+  position: absolute;
+  top: 2px;
+}
+header h1 {
+  margin: 0;
+  line-height: 40px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.nav-bar {
+  display: inline-block;
+  float: right;
+  padding: 0px 6px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.nav-bar li {
+  display: inline-block;
+  color:purple;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.nav-bar a:hover {
+  color:purple;
+}
+.search-section {
+  margin-top: 80px;
+  margin-left: 90px;
+}
+.search-section .search-label{
+  display: block;
+  margin-bottom: 0px;
+}
+.search-section .search-field{
+  display: inline-block;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+.search-field{
+  font-size: 20px;
+  font-weight: 500;
+  width: 400px;
+  height: 25px;
+  padding: 0 5px 0 8px;
+}
+.search-section .search-button{
+  width: 35px;
+  height: 25px;
+  background-color: white;
+  vertical-align: bottom;
+  padding-left: 2px 6px 3px 6px;
+}
+.search-button{
+  display: inline-block;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+ }
+.pages {
+  margin-left: 90px;
+  margin-top: 45px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  width: 350px;
+}
+.pages .pages-button {
+  display: inline-block;
+  padding: 0;
+
+}
+.pages-button{
+  height: 35px;
+  width: 85px;
+  text-align: center;
+}
+.pages .pages-display{
+  display: inline-block;
+  
+}
+
+.pages-display{
+  border-left:1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+  height: 35px;
+  width: 160px;
+  text-align: center;
+ }
+.all-listing{
+  padding: 0;
+  margin-top: 60px;
+  margin-left: 90px;
+  list-style: none;
+}
+.listing{
+  margin-bottom: 15px;
+}
